@@ -1,0 +1,657 @@
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+html {
+  scroll-behavior: smooth; /* Плавная прокрутка */
+}
+.main {
+    width: 100%;
+    height: 1080%;
+    background-color: white;
+}
+.logo1 {
+    width: 10%;
+    height: 4%;
+    margin-top:35px ;
+    margin-left:9% ;
+}
+.header {
+    width: 90%;
+    height: 2%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text-header {
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Inter;
+    padding-left: 35px;
+    scroll-behavior: smooth;
+
+}
+.num {
+    color: black;
+    font-size: 24px;
+    margin-left: 15%;
+    font-family: Inter;
+    font-weight: 700;
+}
+.burger {
+    width: 100%;
+    height: 100%;
+    background-color:rgba(217, 217, 217, 1);
+    position: absolute;
+     display: none;
+}
+.text-burger {
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    margin-left: 30%;
+    margin-top: 1%;
+
+}
+.top {
+    margin-top: 50%;
+}
+.num1 {
+    color: black;
+    font-size: 24px;
+    margin-left: 25%;
+    font-family: Inter;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.close {
+    width: 30px;
+    height: 30px;
+    margin-left:90%;
+}
+.hamburger {
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+.main-header-text {
+    width: 70%;
+    height: 20%;
+    margin-left: 17%;
+    margin-top: 12%;
+}
+.my {
+    font-family: "Joti One", serif;
+    height: 20%;
+    font-size: 48px;
+    font-weight: 700;
+}
+.peaple {
+    width: 50%;
+    margin-top: 40%;
+        margin-left: 25%;
+}
+.main-two {
+    position: relative;
+    width: 100%;
+    height: 1080px;
+    background-color: rgba(184, 179, 179, 1);
+    font-family: "Open Sans", sans-serif;
+}
+.window-max-1 {
+    width: 41%;
+    height: 60%;
+    position: absolute;
+    top: 94px;
+    left: 171px;
+}
+.top-two-str {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.down-two-str {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.one-str {
+    width: 50%;
+    height: 100%;
+
+}
+.two-str {
+    width: 50%;
+    height: 100%;
+}
+.ayt {
+    font-size: 40px;
+}
+.log {
+    font-size: 24px;
+    color: black;
+    margin-top: 30px;
+}
+.ot5 {
+    font-size: 24px;
+    margin-top: 40px;
+}
+.window-max-2 {
+    width: 41%;
+    height: 38%;
+    position: absolute;
+    left: 1041px;
+    top: 420px;
+    display: flex;
+}
+.logo2 {
+    width:37% ;
+    height:35% ;
+    position: absolute;
+    top:50px ;
+    left:1041px ;
+}
+.br {
+    display: none;
+}
+.one-str1 {
+    width: 50%;
+    height: 100%;
+}
+.two-str1 {
+    width: 50%;
+    height: 100%;
+}
+.one-str2 {
+    width: 50%;
+    height: 100%;
+}
+.two-str2 {
+    width: 50%;
+    height: 100%;
+}
+.main_freeq {
+        width: 100%;
+        height: 375px;
+        background-color: white;
+    }
+.free {
+        font-size: 42px;
+        font-weight: 800;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 58px;
+        text-align: center;
+
+}
+.class1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 101px;
+    margin-left: 168px;
+}
+.class2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 45px;
+    margin-left: 168px;
+}
+.main-four {
+    background-color: #b8b3b3;
+    width: 100%;
+    height: 893px;
+}
+.why {
+    font-size: 48px;
+    font-weight: 550;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    padding-top: 120px;
+
+}
+.center-text {
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-weight: 500;
+    font-family: Arial;
+    margin-top: 30px;
+
+}
+.center-text1 {
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-weight: 500;
+    font-family: Arial;
+    padding-top: 70px;
+}
+.main-five {
+    width: 100%;
+    height: 450px;
+    background-color: white;
+}
+.sive {
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 52px;
+    font-family: Arial;
+}
+.telegram {
+    width: 162px;
+    height: 125px;
+    margin-left: 30%;
+}
+.tele {
+    color: black;
+    font-size: 36px;
+    background-color: #b8b3b3;
+    text-decoration: none;
+    border-radius: 37px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Arial;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.bor {
+    display: flex;
+    padding-top: 5%;
+
+}
+.ret {
+    display: flex;
+}
+.main-tog {
+    width: 80%;
+    height: 200px;
+    margin-left: 10%;
+    margin-top: 25px;
+    display: flex;
+}
+.teleg {
+    height: 125px;
+    width: 50%;
+    margin-top: 25px;
+    display: flex;
+}
+.numder {
+    height: 125px;
+    width: 50%;
+    margin-top: 25px;
+    display: flex;
+}
+.tel-nam {
+    color: black;
+    font-size: 36px;
+    background-color: #b8b3b3;
+    text-decoration: none;
+    border-radius: 37px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Arial;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 10%;
+}
+
+
+
+
+@media (max-width: 1600px) {
+    .window-max-2 {
+        left: 800px;
+    }
+    .logo2 {
+        left: 840px;
+    }
+}
+@media (max-width: 1415px) {
+    .logo1 {
+        margin-left: 3%;
+    }
+    .ayt {
+        font-size: 30px;
+    }
+    .log {
+        font-size: 16px;
+    }
+    .ot5 {
+        font-size: 16px
+    }
+}
+@media (max-width: 1300px) {
+    .num {
+        margin-left: 10%;
+    }
+    .text-header {
+        font-size: 16px;
+       padding-left: 25px;
+    }
+    .num {
+        font-size: 16px;
+    }
+    .logo2 {
+        display: none;
+    }
+    .window-max-2 {
+        left: 171px;
+        top: 700px;
+        width: 65%;
+    }
+    .br {
+        display: block;
+    }
+    .one-str {
+        width: 50%;
+    }
+    .one-str1 {
+        width: 90%;
+    }
+    .two-str1 {
+        width: 90%;
+    }
+    .one-str2 {
+        width: 90%;
+    }
+    .two-str2 {
+        width: 90%;
+    }
+
+
+    .window-max-1 {
+        width: 65%;
+    }
+    .main-tog {
+        width: 100%;
+        margin: 0;
+    }
+
+
+}
+@media  (max-width: 920px) {
+    .logo1 {
+        margin-left: 0;
+    }
+    .text-header {
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .my {
+        font-size: 36px;
+    }
+    .peaple {
+        width: 70%;
+        margin-top: 40%;
+        margin-left: 15%;
+    }
+    .telegram {
+        margin-left: 0;
+    }
+}
+@media (max-width: 885px) {
+    .peaple {
+        height: 20%;
+    }
+    .num {
+        font-size: 12px;
+        margin-left: 7%;
+    }
+    .my {
+        font-size: 24px;
+    }
+    .top-two-str {
+        display: block;
+        height: 525PX;
+    }
+    .down-two-str {
+        display: block;
+        margin: 0;
+    }
+    .two-str {
+        top: 100px;
+        height: 50%;
+        width: 70%;
+    }
+    .down-two-str {
+
+    }
+    .window-max-2 {
+        margin-top: 460px;
+        display: block;
+        left: 25%;
+        margin-top: 390px;
+    }
+    .one-str2 {
+        height: 30%;
+    }
+    .main-two {
+        height: 2000PX;
+    }
+    .one-str {
+        width: 70%;
+        height: 50%;
+    }
+    .window-max-1 {
+        left: 25%;
+    }
+    .one-str1 {
+         height: 40%;
+
+         }
+    .two-str2 {
+        height: 30%;
+    }
+    .window-max-2 {
+
+    }
+    .free {
+        font-size: 32px;
+    }
+    .class1 {
+        font-size: 28px;
+        margin-left: 90px;
+    }
+    .class2 {
+        font-size: 28px;
+        margin-left: 90px;
+    }
+    .why {
+        font-size: 40px;
+    }
+    .center-text {
+        font-size:29px;
+    }
+    .center-text1 {
+        font-size: 29px;
+    }
+    .telegram {
+        width: 120px;
+        height: 80px;
+    }
+    .tele {
+        font-size: 28px;
+        margin-bottom: 35px;
+    }
+    .tel-nam {
+        font-size: 28px;
+        margin-bottom: 35px;
+    }
+
+}
+@media (max-width: 618px) {
+    .text-header {
+        display: none;
+    }
+
+    .logo1 {
+        margin-top: 20px;
+        height: 50%;
+        width: 15%;
+
+    }
+    .header {
+        height: 10%;
+    }
+    .hamburger {
+        display: block;
+    }
+    .my {
+        font-size: 16px;
+    }
+    .peaple {
+        width: 80%;
+        margin-top: 60%;
+        height: 140px;
+        margin-left: 10%;
+    }
+    .main {
+        height: 790px;
+    }
+    .class1 {
+        font-size: 19px;
+    }
+    .class2 {
+        font-size: 19px;
+    }
+    .why {
+        font-size: 34px;
+    }
+    .center-text {
+        font-size: 22px;
+    }
+    .center-text1 {
+        font-size: 22px;
+    }
+    .telegram {
+        width: 80px;
+        margin-top: 13px;
+    }
+    .tele {
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+    .tel-nam {
+        font-size: 18px;
+        margin-bottom: 50px;
+        margin-left: 10%;
+    }
+
+}
+@media (max-width: 448px) {
+    .peaple {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 80%;
+    }
+    .ayt {
+        font-size: 22px;
+    }
+    .log {
+        font-size: 12px;
+    }
+    .ot5 {
+        font-size: 14px;
+    }
+    .main {
+        height: 720px;
+    }
+    .class1 {
+        margin-left: 40px;
+    }
+    .class2 {
+        margin-left: 40px;
+    }
+
+    .why     {
+        font-size: 24px;
+    }
+    .center-text {
+        font-size: 16px;
+        margin-left: 8%;
+        display: block;
+        align-items: normal;
+        justify-content: normal;
+        text-align: left;
+    }
+    .center-text1 {
+        font-size: 16px;
+        margin-left: 8%;
+        display: block;
+        align-items: normal;
+        justify-content: normal;
+        text-align: left;
+    }
+    .main-four {
+        height: 650px;
+    }
+    .why {
+            padding-top: 40px;
+        }
+    .sive {
+        font-size: 30px;
+    }
+    .telegram {
+        height: 60px;
+        width: 60px;
+        margin-top: 20px;
+        margin-left: 10%;
+    }
+    .tele {
+        font-size: 12px;
+        margin-bottom: 55px;
+    }
+    .tel-nam {
+        font-size: 12px;
+        margin-bottom: 55px;
+    }
+    .main-five {
+        height: 250px;
+    }
+
+}
+@media (max-width: 324px) {
+    .my {
+        font-size: 12px;
+    }
+    .peaple {
+        height: 100px;
+        margin-top: 90%;
+    }
+    .main {
+        height: 600px;
+    }
+    .why {
+        font-size: 19px;
+    }
+    .center-text {
+        font-size: 12px;
+    }
+    .center-text1 {
+        font-size: 12px;
+        padding-top: 50px;
+    }
+    .main-four {
+        height: 600px;
+    }
+    .why {
+            padding-top: 40px;
+        }
+
+}
